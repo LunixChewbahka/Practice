@@ -21,3 +21,13 @@ while ( $loopnum < 10) {
 		chomp $fruit;
 }
 push(@fruits, $fruit);
+
+# Starts from element[0] = first element
+# Element 0 is "my" or $a[0] = "my"
+# And so on.....
+# $a[$#a] = "Rob";
+my @a = ("my", "name", "is", "Rob");
+
+# note: $#a is the index of the last position in the array
+my @a2 = (1,2,3,4);
+print "$#a\n";
