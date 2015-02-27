@@ -4,7 +4,7 @@ var book = {
   author: "Everyone", 
   publisher: "Name of Publisher",
   released: true 
-}
+};
 
 // Access the properties of an Object with . or [] in this case "book.something"
 console.log(book.topic);
